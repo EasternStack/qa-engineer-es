@@ -262,8 +262,6 @@ The original code in this repository is released under the MIT License — see
 [LICENSE](LICENSE).
 
 The vendored `xlsx` skill is third-party software and is **not** covered by the
-MIT license. Its upstream repository declares no license. See
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before publishing or
-redistributing this repository.
+MIT license. Its upstream repository declares no license.
 
 Use this harness only against applications you are authorized to test.

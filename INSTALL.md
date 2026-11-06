@@ -153,4 +153,4 @@ needs the four files. The skill stops with a clear message when they are missing
 
 The original code in this repository is MIT licensed — see [LICENSE](LICENSE).
 The vendored `xlsx` skill is third-party software and is not covered by that
-license — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+license.
