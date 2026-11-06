@@ -62,6 +62,16 @@ Options:
 Manual installation is documented in [INSTALL.md](INSTALL.md). After installing,
 restart Qoder so the `/qa-run` skill and `qa-engineer` agent are registered.
 
+You can also open this repository itself as a Qoder project: the skill, agent,
+xlsx skill, and templates are already in the Qoder-native layout. Restart Qoder
+after cloning it.
+
+## Language
+
+Documentation, prompts, template fields, and report text are English. UI labels
+quoted inside test cases stay in the SUT's language (for example `Masuk`,
+`Keranjang`) because they are literal strings the agent must find on the page.
+
 ## Quick start
 
 ```bash
