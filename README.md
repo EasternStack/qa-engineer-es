@@ -256,4 +256,14 @@ The `xlsx` skill is vendored from
 adapted to run through `uv` with openpyxl. It is included because the `qa-run`
 workflow depends on it for reading and writing workbooks.
 
+## License
+
+The original code in this repository is released under the MIT License — see
+[LICENSE](LICENSE).
+
+The vendored `xlsx` skill is third-party software and is **not** covered by the
+MIT license. Its upstream repository declares no license. See
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before publishing or
+redistributing this repository.
+
 Use this harness only against applications you are authorized to test.

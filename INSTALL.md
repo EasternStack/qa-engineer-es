@@ -148,3 +148,9 @@ needs the four files. The skill stops with a clear message when they are missing
 | "Templates are missing" | `qa/templates/` was not copied | Re-run `install.sh` or copy the four files |
 | Write-back fails | The workbook is open in Excel | Close it and re-run, or use `--no-writeback` |
 | The agent reads the SUT source | Wrong workspace | Keep the QA workspace separate from the SUT; see the black-box rules in `.qoder/agents/qa-engineer.md` |
+
+## License
+
+The original code in this repository is MIT licensed — see [LICENSE](LICENSE).
+The vendored `xlsx` skill is third-party software and is not covered by that
+license — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
